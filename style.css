@@ -1,1 +1,68 @@
+*{
+  /* border: 1px solid; */
+}
 
+/* colorprimary : #fea373;
+colorsecondary : #94ca88;
+colorsecondary : #b488da;
+color4: #728278; */
+
+/* body {
+  background: url(images/image_APE.jpg) no-repeat top;
+} */
+  
+.img_ape{
+  display: block;
+  width: 85%;
+  margin: 0 auto;
+  margin-top: 70px;
+}
+
+.bi-facebook{
+color : #1b74e4;
+}
+
+.img_organigramme{
+  display: block;
+  width: 85%;
+  margin: 0 auto;
+  transition: 0.7s all ease;
+  -webkit-transition: 0.7s all ease;
+  -moz-transition: 0.7s all ease;
+  -ms-transition: 0.7s all ease;
+  -o-transition: 0.7s all ease;
+  border: 1px solid grey;
+  box-shadow: 1px 2px 3px 4px grey ;
+}
+.img_organigramme:hover {
+  transform: scale(1.5);
+  -webkit-transform: scale(1.5);
+  -moz-transform: scale(1.5);
+  -ms-transform: scale(1.5);
+  -o-transform: scale(1.5);
+}
+
+
+/* 
+.zoom img {
+  width: 100%;
+  transition: 0.5s all ease-in-out;
+  -webkit-transition: 0.5s all ease-in-out;
+  -moz-transition: 0.5s all ease-in-out;
+  -ms-transition: 0.5s all ease-in-out;
+  -o-transition: 0.5s all ease-in-out;
+} */
+  /* .zoom:hover img {
+  transform: scale(2.0);
+  } */
+  
+  
+@media screen and (min-width : 768px){
+  .img_organigramme:hover {
+    transform: none;
+    -webkit-transform: none;
+    -moz-transform: none;
+    -ms-transform: none;
+    -o-transform: none;
+}
+}
