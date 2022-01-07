@@ -1,6 +1,17 @@
 *{
+  box-sizing: border-box;
   /* border: 1px solid; */
 }
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+p{
+  padding: 0;
+  margin: 0;
+}
+
 
 /* colorprimary : #fea373;
 colorsecondary : #94ca88;
@@ -32,7 +43,7 @@ color : #1b74e4;
   -ms-transition: 0.7s all ease;
   -o-transition: 0.7s all ease;
   border: 1px solid grey;
-  box-shadow: 1px 2px 3px 4px grey ;
+  box-shadow: 0px 5px 13px 4px grey ;
 }
 .img_organigramme:hover {
   transform: scale(1.5);
@@ -42,20 +53,96 @@ color : #1b74e4;
   -o-transform: scale(1.5);
 }
 
+.events-title {
+  margin-top: 80px;
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  font-weight: bold;
+  color:#94ca88;
+  letter-spacing: 0.1em;
+}
 
-/* 
-.zoom img {
-  width: 100%;
-  transition: 0.5s all ease-in-out;
-  -webkit-transition: 0.5s all ease-in-out;
-  -moz-transition: 0.5s all ease-in-out;
-  -ms-transition: 0.5s all ease-in-out;
-  -o-transition: 0.5s all ease-in-out;
-} */
-  /* .zoom:hover img {
-  transform: scale(2.0);
-  } */
-  
+.card {
+  position: relative;
+  margin: 0 auto;
+  margin-bottom: 20px;
+  box-shadow: 0px 10px 13px 7px grey;
+}
+
+
+.affiche {
+  position: absolute;
+  top: 220px;
+  box-shadow: 0px 5px 13px 4px grey;
+}
+
+.card-title {
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #fea373;
+  font-size: 1.5rem;
+}
+
+.card-text-date {
+  text-align: center;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+.card-text-precisions {
+  margin-bottom: 20px;
+}
+
+.card-text-precisions span {
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.buttons {
+  margin: 10px 0 5px;
+  text-align: center;
+}
+
+.buttons a:first-child {
+  margin-right: 20px;
+}
+
+.btn {
+  background-color: #b488da;
+  border : none;
+}
+
+.btn:hover {
+  background-color: #94ca88;
+}
+
+.card-text-precisions .ticket {
+  display: block;
+  text-align: center;
+  padding: 5px;
+  width: 80%;
+  margin: 20px auto;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-weight: bold;
+  box-shadow: 0 5px 13px 4px grey;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+
+ul {
+  margin-bottom: 0;
+}
+
+.organisateurs-title {
+  font-weight: bold;
+  text-decoration: underline;
+}
   
 @media screen and (min-width : 768px){
   .img_organigramme:hover {
