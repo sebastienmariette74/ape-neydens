@@ -5,7 +5,9 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="bootstrap.min.css">
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;700&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
   <title>APE Neydens</title>
   <meta name="description" content="l'APE de NEYDENS est l'association des parents d'élève, représentant l'école maternelle de la ville de NEYDENS, en Haute-Savoie. ">
@@ -13,37 +15,33 @@
 <body>
   <header>
     <nav class="navbar navbar-expand-lg fixed-top navbar-light bg-light">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="#">APE Neydens</a>
+      <div class="container-fluid ">
+        <a class="navbar-brand" href="/index.html">APE Neydens</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarText">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             <li class="nav-item">
-              <a class="nav-link" aria-current="page" href="index.html">Accueil</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#bureau">Qui sommes nous ?</a>
+              <a class="nav-link" href="index.html#bureau">Qui sommes nous ?</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Nos membres</a>
+              <a class="nav-link" href="index.html#members">Nos membres</a>
             </li>
             <li class="nav-item">
+              <li class="nav-item">
+                <a class="nav-link" href="index.html#ecole">L'école</a>
+              </li>
               <a class="nav-link" href="events.html">Nos actions</a>
-            </li>
+            </li>            
             <li class="nav-item">
-              <a class="nav-link" href="#">L'école</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Archives</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Contact</a>
+              <a class="nav-link" href="index.html#contact">Contact</a>
             </li>
           </ul>
           <span class="navbar-text">
-            <a href="https://www.facebook.com/COSNeydens" target="_blanck"><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-facebook" viewBox="0 0 16 16">
+            <a href="https://www.facebook.com/COSNeydens" target="_blanck"><svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="currentColor" class="bi bi-facebook" viewBox="0 0 16 16">
               <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z"/>
             </svg></a>
           </span>
@@ -51,10 +49,51 @@
       </div>
     </nav>
   </header>
-  <main class="container-fluid g-0">
+  <main class="container ">
     <img class="img_ape" src="/images/image-APE.jpg" alt="image de l'APE">
-    <img id="bureau" class="img_organigramme" src="/images/organigramme-APE.jpg" alt="organigramme de l'APE">
+    <img id="bureau" class="img_organigramme box-shadow" src="/images/organigramme-APE.jpg" alt="organigramme de l'APE">
+    <section id="members" class="members box-shadow">
+      <p>
+        Les membres du bureau sont élus lors de la réunion de la rentrée scolaire. Participent à cette élection tous les parents présents. <br><br>
+        Cette réunion permet également de répartir les missions entre tous les membres bénéboles de l'association dans le but de préparer les différents évènements de l'année. <br><br>
+        Parmi nos bénévoles, nous comptons : <span class="benevoles">Albane, Gilles, Fred L., Christophe D., Christophe A., Elisa, Damien, Jean-Louis, Mélanie, Marine, Odile, Jérôme, Matthieu, Sabrina, Cathy, Joffrey.</span> <br><br>
+        Nous ne serons jamais assez nombreux alors si vous voulez nous rejoindre, n'hésitez pas à nous contacter. On peut vous garantir d'excellents moments de joie et de convivialité. L'association est ouverte à tous !!!
+      </p>
+    </section>
+    <section id="ecole" class="school g-0 box-shadow">
+      <p>Notre école est située dans l'agglomération de Neydens en Haute-Savoie. Pour l'année scolaire 2021-2022, 198 enfants y sont inscrits, répartis dans 8 classes :         
+      </p>
+      <ul>
+        <li>PS / MS</li>
+        <li>PS / GS</li>
+        <li>MS / GS</li>
+        <li>GS / CP</li>
+        <li>CP / CE1</li>
+        <li>CE1 / CE2</li>
+        <li>CE2 / CM2</li>
+        <li>CM1 / CM2</li>
+      </ul>
+
+    </section>
   </main>
+  <footer class="container">
+    <div class="footer-contact">
+      <div class="iframe box-shadow">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d5531.075115407954!2d6.103697!3d46.120121000000005!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xe80d0ca5780aa52a!2sEcole!5e0!3m2!1sfr!2sfr!4v1641565759512!5m2!1sfr!2sfr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" class="map "></iframe>
+      </div>
+      <div id="contact" class="contact-us">
+        <p>Vous souhaitez nous contacter ?</p>
+        <div class="list-group">
+          <li class="list-group-item"><span class="contact">Adresse postale :</span><br> 60 Chemin Neuf <br>74160 Neydens</li>
+          <a href="tel:+33615914237" class="list-group-item list-group-item-action"><span class="contact">Téléphone :</span> 06.15.91.42.37</a>
+          <a href="mailto:cosneydens@gmail.com" class="list-group-item list-group-item-action">Mail : cosneydens@gmail.com</a>
+        </div>    
+      </div>
+    </div>
+    <div class="droits bg-light">
+      &copy; Sébastien MARIETTE, 2022 - Tous droits réservés
+    </div>    
+  </footer>
 
 
 
