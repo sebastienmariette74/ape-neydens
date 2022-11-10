@@ -1,6 +1,9 @@
 # Projet Association APE NEYDENS
 [APE NEYDENS](https://ape-neydens.netlify.app/)
 
+## Technologies
+HTML, CSS, Bootstrap, Javascript
+
 ## Détails du projet
 
 ### Objectifs
