@@ -1,5 +1,5 @@
-# Projet Association APE NEYDENS
-[APE NEYDENS](https://ape-neydens.netlify.app/)
+# Projet Association APE NEYDENS - [site](https://ape-neydens.netlify.app/)
+Projet réalisé au début de ma formation de Développeur Web et Web Mobile chez STUDI.
 
 ## Technologies
 HTML, CSS, Bootstrap, Javascript
